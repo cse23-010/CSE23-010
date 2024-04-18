@@ -29,8 +29,8 @@ main {
     padding: 20px;
 }
 
-.hero {
-    background-image: ("spideyy.jpg");
+body {
+    background-image: url('spideyy.jpg');
     background-size: cover;
     text-align: center;
     padding: 100px 0;
