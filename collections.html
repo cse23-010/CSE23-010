@@ -10,23 +10,67 @@
             border: 1px solid black;
             text-align: left; 
             padding: 15px; 
-        }
-  </style>
-</head>
-<body>
-  <table>
-    <tr>
-      <th>Movie</th>
-      <th>Genre</th>
-    </tr>
-    <tr>
-      <td><img src="Joker.webp" alt="Joker"></td>
-      <td>Action</td>
-    </tr>
-    <tr>
-     <td><img src="twilight.avif" alt="Twilight"></td> 
-      <td>Romance</td>
-    </tr>
- </table>
-</body>
-</html>
+        }/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.featured-movies,
+.featured-tv-shows,
+.featured-games {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+  
