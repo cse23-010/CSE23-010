@@ -1,8 +1,7 @@
 
 body { 
     font-family: Arial, sans-serif;
-    background-image: ('background.jpg');
-    background-size: cover;
+    background-colour: black;
   }
 
 header {
