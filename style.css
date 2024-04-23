@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('movie.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     color: #fff;
     text-align: center;
