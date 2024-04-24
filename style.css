@@ -9,6 +9,9 @@ body {
     padding: 100px 0;
     text-align: center; /* Align all text in the center */
 }
+img {
+    text-align:left;
+}
 
 h2 {
     text-align: center; /* Align h2 headings in the center */
