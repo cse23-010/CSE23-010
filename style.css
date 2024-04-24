@@ -150,4 +150,21 @@ footer {
         margin: 10px 0;
     }
 }
+/* CSS for horizontal scrolling */
+.featured-section {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.featured-section img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* CSS for image hover effect */
+.featured-section img:hover {
+    transform: scale(1.1); /* Increase size by 10% */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
 
