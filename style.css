@@ -6,16 +6,16 @@ body {
     background-size: auto;
     background-position: center;
     color: #fff;
-    text-align: left;
-    padding: 100px 0;
-    
+   padding: 100px 0;
+    }
+h2{
+    text-align:center;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    text-align: center;
+    text-align: left;
 }
 
 header {
@@ -103,12 +103,7 @@ nav ul li a:hover {
 
 .featured-section {
     padding: 50px 0;
-    text-align: center;
-}
-
-.featured-section h2 {
-    font-size: 28px;
-    margin-bottom: 40px;
+    text-align: left;
 }
 
 .featured-content {
@@ -116,13 +111,11 @@ nav ul li a:hover {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .featured-content img {
     margin: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-
 footer {
     background-color: #000;
     color: #fff;
