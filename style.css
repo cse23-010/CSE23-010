@@ -10,7 +10,7 @@ body {
     text-align: center; /* Align all text in the center */
 }
 img {
-    text-align:left;
+    text-align:center;
 }
 
 h2 {
@@ -164,7 +164,7 @@ footer {
 .featured-section img {
     display: inline-block;
     margin-right: 10px;
-    text-align:left;
+    text-align:center;
 }
 
 /* CSS for image hover effect */
