@@ -3,17 +3,11 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('movie.jpg');
-    background-size: cover; /* Use cover to fill the entire screen */
+    background-size: auto; 
     background-position: center;
     color: #fff;
     padding: 100px 0;
     text-align: center; /* Align all text in the center */
-}
-
-/* Center images */
-img {
-    display: block;
-    margin: 0 auto;
 }
 
 h2 {
