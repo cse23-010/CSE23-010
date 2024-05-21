@@ -109,8 +109,7 @@ nav ul li a:hover {
     text-align: center;
     overflow-x: auto;
     white-space: nowrap;
-    display: flex;
-    flex-direction: row-reverse;
+   
 }
 
 .featured-section img {
