@@ -131,10 +131,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        display:flex;
-         justify-content: space-between;
-    }
+}
 
     .main-nav {
         display: none;
