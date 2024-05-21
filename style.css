@@ -3,15 +3,15 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('movie.jpg');
-    background-size: auto; 
+    background-size: cover;
     background-position: center;
     color: #fff;
+    text-align: center;
     padding: 100px 0;
-    text-align: center; /* Align all text in the center */
 }
 
 h2 {
-    text-align: center; /* Align h2 headings in the center */
+    text-align: center;
 }
 
 .container {
@@ -107,8 +107,7 @@ nav ul li a:hover {
 .featured-section {
     padding: 50px 0;
     text-align: center;
-    overflow-x: auto; /* Enable horizontal scrolling */
-  
+    overflow-x: auto;
 }
 
 .featured-section img {
@@ -119,8 +118,8 @@ nav ul li a:hover {
 }
 
 .featured-section img:hover {
-    transform: scale(1.1); /* Increase size by 10% */
-    transition: transform 0.3s ease; /* Add smooth transition */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 footer {
@@ -130,7 +129,7 @@ footer {
     padding: 20px 0;
 }
 
-
+@media (max-width: 768px) {
     .main-nav {
         display: none;
     }
@@ -148,6 +147,3 @@ footer {
         margin: 10px 0;
     }
 }
-
-
-
