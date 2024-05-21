@@ -108,7 +108,7 @@ nav ul li a:hover {
     padding: 50px 0;
     text-align: center;
     overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent wrapping of images */
+  
 }
 
 .featured-section img {
@@ -131,8 +131,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .menu-btn {
-        display: block;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .main-nav {
