@@ -1,151 +1,155 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('movie.jpg');
-    background-size: auto;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
+    font-family: Arial, sans-serif; /* Sets the font family to Arial, or the default sans-serif font if Arial is not available */
+    margin: 0; /* Removes the default margin of the body */
+    padding: 0; /* Removes the default padding of the body */
+    background-image: url('movie.jpg'); /* Sets a background image */
+    background-size: auto; /* Ensures the background image retains its original size */
+    background-position: center; /* Centers the background image */
+    color: #fff; /* Sets the text color to white */
+    text-align: center; /* Centers the text horizontally */
+    padding: 100px 0; /* Adds vertical padding of 100px to the top and bottom */
 }
 
 h2 {
-    text-align: center;
+    text-align: center; /* Centers the h2 text horizontally */
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    text-align: center;
+    max-width: 1200px; /* Sets the maximum width of the container to 1200 pixels */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 0 20px; /* Adds 20 pixels of padding to the left and right */
+    text-align: center; /* Centers the text horizontally */
 }
 
 header {
-    padding: 20px 0;
+    padding: 20px 0; /* Adds vertical padding of 20 pixels to the top and bottom */
 }
 
 .menu-btn {
-    display: none;
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
+    display: none; /* Hides the menu button by default */
+    background: none; /* Removes any background color or image */
+    border: none; /* Removes the border */
+    color: #fff; /* Sets the text color to white */
+    font-size: 20px; /* Sets the font size to 20 pixels */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
 }
 
 .menu-btn:focus {
-    outline: none;
+    outline: none; /* Removes the outline when the button is focused */
 }
 
 .main-nav {
-    display: flex;
-    justify-content: center;
+    display: flex; /* Uses flexbox to layout the navigation */
+    justify-content: center; /* Centers the flex items horizontally */
 }
 
 .main-nav ul {
-    list-style: none;
-    display: flex;
+    list-style: none; /* Removes the default list styling */
+    display: flex; /* Displays list items in a flex container */
 }
 
 .main-nav ul li {
-    margin-right: 20px;
+    margin-right: 20px; /* Adds a 20-pixel margin to the right of each list item */
 }
 
 .main-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff; /* Sets the link color to white */
+    text-decoration: none; /* Removes the underline from links */
 }
 
 header .logo {
-    width: 150px;
-    height: auto;
+    width: 150px; /* Sets the width of the logo to 150 pixels */
+    height: auto; /* Automatically adjusts the height to maintain aspect ratio */
 }
 
 nav ul {
-    list-style: none;
+    list-style: none; /* Removes the default list styling */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline; /* Displays list items inline */
+    margin-right: 20px; /* Adds a 20-pixel margin to the right of each list item */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+    color: #fff; /* Sets the link color to white */
+    text-decoration: none; /* Removes the underline from links */
+    font-weight: bold; /* Makes the link text bold */
 }
 
 nav ul li a:hover {
-    color: #f44336;
+    color: #f44336; /* Sets the link color to red when hovered */
+  
 }
 
 #hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 36px; /* Sets the font size of h1 to 36 pixels */
+    margin-bottom: 20px; /* Adds a 20-pixel margin below the h1 element */
 }
 
 #hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
+    font-size: 18px; /* Sets the font size of paragraph text to 18 pixels */
+    margin-bottom: 30px; /* Adds a 30-pixel margin below the paragraph element */
 }
 
 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #f44336;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+    display: inline-block; /* Displays the element as an inline block */
+    padding: 10px 20px; /* Adds 10 pixels of padding to the top and bottom, and 20 pixels to the left and right */
+    background-color: #f44336; /* Sets the background color to red */
+   
+    color: #fff; /* Sets the text color to white */
+    text-decoration: none; /* Removes the underline from links */
+    border-radius: 5px; /* Rounds the corners with a radius of 5 pixels */
 }
 
 .btn:hover {
-    background-color: #d32f2f;
-}
-
-.featured-section {
-    padding: 50px 0;
-    text-align: center;
-    overflow-x: auto;
-    white-space: nowrap;
+    background-color: #d32f2f; /* Sets the background color to a darker red when hovered */
    
 }
 
+.featured-section {
+    padding: 50px 0; /* Adds vertical padding of 50 pixels to the top and bottom */
+    text-align: center; /* Centers the text horizontally */
+    overflow-x: auto; /* Allows horizontal scrolling if content overflows */
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
 .featured-section img {
-    display: inline-block;
-    margin-right: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block; /* Displays the images as inline blocks */
+    margin-right: 10px; /* Adds a 10-pixel margin to the right of each image */
+    border-radius: 5px; /* Rounds the corners with a radius of 5 pixels */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adds a shadow with a 10-pixel blur and 30% opacity */
 }
 
 .featured-section img:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
+    transform: scale(1.1); /* Scales the image by 10% when hovered */
+    transition: transform 0.3s ease; /* Smoothly transitions the scaling over 0.3 seconds */
 }
 
 footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #000; /* Sets the background color to black */
+    
+    color: #fff; /* Sets the text color to white */
+    text-align: center; /* Centers the text horizontally */
+    padding: 20px 0; /* Adds vertical padding of 20 pixels to the top and bottom */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* Media query for screens with a maximum width of 768 pixels */
     .main-nav {
-        display: none;
+        display: none; /* Hides the main navigation by default */
     }
 
     .main-nav.active {
-        display: flex;
+        display: flex; /* Displays the main navigation as a flex container when active */
     }
 
     .main-nav ul {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Stacks the list items vertically */
+        align-items: center; /* Centers the list items horizontally */
     }
 
     .main-nav ul li {
-        margin: 10px 0;
+        margin: 10px 0; /* Adds a 10-pixel margin above and below each list item */
     }
 }
+
