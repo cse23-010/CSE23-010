@@ -28,10 +28,16 @@
             <input type="submit" value="Submit">
         </form>
     </section>
-    
+
     <footer>
         <p>&copy; 2024 Warner Bros. All rights reserved.</p>
     </footer>
+    <script>
+        document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevents the default form submission behavior
+            alert('Feedback submitted!'); // Displays the message
+        });
+    </script> 
 </body>
 </html>
 
